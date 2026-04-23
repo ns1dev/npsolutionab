@@ -11,7 +11,7 @@ const Footer = () => {
               <span className="font-bold text-lg">NP Solution AB</span>
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
-              Specialister på ventilationsisolering och installation för kommersiella fastigheter och industrier i hela Sverige.
+              Ledande specialister på ventilationsisolering och installation i Stockholm. Vi levererar i hela Stockholmsregionen och övriga Sverige.
             </p>
           </div>
 
@@ -33,12 +33,17 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4 text-accent">Företagsinfo</h4>
+            <h4 className="font-semibold mb-4 text-accent">Kontakt</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
               <li>NP Solution AB</li>
+              <li>Stockholm, Sverige</li>
+              <li>
+                <a href="tel:+46765562590" className="hover:text-accent transition-colors">076/556 25-90</a>
+              </li>
+              <li>
+                <a href="mailto:npsolutionab@gmail.com" className="hover:text-accent transition-colors break-all">npsolutionab@gmail.com</a>
+              </li>
               <li>Org.nr: 559441-2679</li>
-              <li>Farsta, Stockholm</li>
-              <li>info@npsolution.se</li>
             </ul>
           </div>
         </div>
