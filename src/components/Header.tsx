@@ -68,13 +68,13 @@ const Header = () => {
             <Phone size={16} /> {PHONE}
           </a>
           <Button asChild variant="accent" size="lg">
-            <a href="#kontakt">Få offert</a>
+            <a href="#kontakt">Begär offert</a>
           </Button>
         </div>
 
         <div className="md:hidden flex items-center gap-2">
           <Button asChild variant="accent" size="sm" className="h-10 px-4 text-sm font-semibold">
-            <a href="#kontakt">Få offert</a>
+            <a href="#kontakt">Begär offert</a>
           </Button>
           <button
             onClick={() => setOpen(!open)}
@@ -106,7 +106,7 @@ const Header = () => {
               <Phone size={16} className="text-accent" /> {PHONE}
             </a>
             <Button asChild variant="accent" size="lg" className="w-full">
-              <a href="#kontakt" onClick={() => setOpen(false)}>Få offert</a>
+              <a href="#kontakt" onClick={() => setOpen(false)}>Begär offert</a>
             </Button>
           </div>
         </div>
