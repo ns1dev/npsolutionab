@@ -44,25 +44,36 @@ const Contact = () => {
               Redo att optimera er ventilation?
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-10">
-              Söker ni pålitlig hjälp med ventilationsisolering eller montering? Låt oss titta på ert nästa projekt. Fyll i formuläret eller slå oss en signal idag för rådgivning och en kostnadsfri offert.
+              Söker ni pålitlig hjälp med ventilationsisolering eller montering i Stockholm? Fyll i formuläret eller ring oss idag för rådgivning och en kostnadsfri offert.
             </p>
 
             <div className="space-y-5">
-              {[
-                { icon: Phone, label: "Telefon", value: "+46 (0)8 — 000 00 00" },
-                { icon: Mail, label: "E-post", value: "info@npsolution.se" },
-                { icon: MapPin, label: "Adress", value: "Farsta, Stockholm" },
-              ].map((item) => (
-                <div key={item.label} className="flex items-center gap-4 p-4 rounded-xl bg-surface border border-border/60">
-                  <div className="h-12 w-12 rounded-lg gradient-accent flex items-center justify-center flex-shrink-0">
-                    <item.icon className="text-primary" />
+              {([
+                { icon: Phone, label: "Telefon", value: "076/556 25-90", href: "tel:+46765562590" },
+                { icon: Mail, label: "E-post", value: "npsolutionab@gmail.com", href: "mailto:npsolutionab@gmail.com" },
+                { icon: MapPin, label: "Område", value: "Stockholm & hela Sverige", href: undefined },
+              ] as const).map((item) => {
+                const inner = (
+                  <>
+                    <div className="h-12 w-12 rounded-lg gradient-accent flex items-center justify-center flex-shrink-0">
+                      <item.icon className="text-primary" />
+                    </div>
+                    <div>
+                      <div className="text-xs text-muted-foreground uppercase tracking-wider">{item.label}</div>
+                      <div className="text-foreground font-semibold">{item.value}</div>
+                    </div>
+                  </>
+                );
+                return item.href ? (
+                  <a key={item.label} href={item.href} className="flex items-center gap-4 p-4 rounded-xl bg-surface border border-border/60 hover:border-accent/40 transition-colors">
+                    {inner}
+                  </a>
+                ) : (
+                  <div key={item.label} className="flex items-center gap-4 p-4 rounded-xl bg-surface border border-border/60">
+                    {inner}
                   </div>
-                  <div>
-                    <div className="text-xs text-muted-foreground uppercase tracking-wider">{item.label}</div>
-                    <div className="text-foreground font-semibold">{item.value}</div>
-                  </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
 

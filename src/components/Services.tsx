@@ -4,22 +4,22 @@ const services = [
   {
     icon: Flame,
     title: "Isolering av Ventilationskanaler",
-    text: "Rätt teknisk isolering är ett absolut måste för att maximera energieffektivitet och säkerställa ett korrekt brandskydd. Vi är specialister på ventilationsisolering och ser till att era rör och kanaler håller exakt rätt temperatur. Ett välisolerat system sänker era driftkostnader och skapar en stabil inomhusmiljö.",
+    text: "Rätt teknisk isolering är avgörande för energieffektivitet och brandskydd. Vi säkerställer att era rör och kanaler håller exakt rätt temperatur året om. Resultatet blir lägre driftkostnader, jämn inomhusmiljö och längre livslängd på anläggningen.",
   },
   {
     icon: Wrench,
     title: "Installation av Ventilationssystem",
-    text: "Vi hanterar stora och komplexa ventilationsinstallationer med total precision. Våra montörer installerar moderna aggregat och bygger rörsystem som lever upp till de allra strängaste branschkraven för kommersiella fastigheter och industrier.",
+    text: "Vi hanterar stora och komplexa installationer med precision. Våra montörer bygger rörsystem och installerar moderna aggregat som lever upp till de strängaste branschkraven för kommersiella fastigheter och industrier.",
   },
   {
     icon: Building2,
     title: "Nyproduktion och Renovering",
-    text: "När ni bygger nytt eller genomför en större renovering är vi er trygga partner för allt ventilationsarbete. Vi installerar kompletta lösningar som integreras smidigt i byggprocessen och garanterar en modern standard från första dagen.",
+    text: "När ni bygger nytt eller renoverar är vi er trygga partner för allt ventilationsarbete. Vi levererar kompletta lösningar som integreras smidigt i byggprocessen och garanterar certifierad kvalitet från dag ett.",
   },
   {
     icon: ShieldCheck,
     title: "Service och Underhåll av Ventilation",
-    text: "Ett hälsosamt ventilationssystem kräver regelbunden tillsyn för att fungera optimalt. Vi utför noggrann ventilationsservice och reparationer som förlänger livslängden på er anläggning. Genom förebyggande underhåll minimerar vi dyra driftstopp och garanterar ren luft dygnet runt.",
+    text: "Ett välmående ventilationssystem kräver regelbunden tillsyn. Vi utför service och reparationer som förlänger livslängden på er anläggning. Förebyggande underhåll minimerar dyra driftstopp och garanterar ren luft dygnet runt.",
   },
 ];
 

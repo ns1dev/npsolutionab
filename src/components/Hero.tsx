@@ -12,15 +12,22 @@ const Hero = () => {
 
       <div className="container-tight relative z-10 py-32 text-primary-foreground">
         <div className="max-w-3xl animate-fade-up">
-          <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/15 border border-accent/30 text-accent text-sm font-medium mb-6">
-            <span className="h-2 w-2 rounded-full bg-accent animate-pulse" />
-            Specialister på ventilationsisolering
-          </span>
+          <div className="flex items-stretch gap-5 mb-8">
+            <div className="w-[3px] bg-gradient-to-b from-accent via-steel to-transparent rounded-full" />
+            <div className="flex flex-col justify-center">
+              <span className="text-accent text-xs font-semibold tracking-[0.25em] uppercase">
+                NP Solution AB
+              </span>
+              <span className="text-primary-foreground/80 text-sm font-medium tracking-wide mt-1">
+                Specialister på ventilationsisolering i Stockholm
+              </span>
+            </div>
+          </div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-[1.05] mb-6">
-            Professionell Ventilationsisolering och Installation i Hela Sverige
+            Professionell Ventilationsisolering och Installation i Stockholm
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/85 max-w-2xl mb-10 leading-relaxed">
-            NP Solution AB skapar energieffektiva och driftsäkra ventilationssystem. Våra erfarna montörer har över tio års kompetens och hjälper företag att optimera sitt inomhusklimat. Vi utgår från Farsta och utför uppdrag med högsta kvalitet över hela landet.
+            NP Solution AB levererar energieffektiva och driftsäkra ventilationssystem för kommersiella fastigheter och industrier. Med över tio års branscherfarenhet utför vi uppdrag i hela Stockholmsregionen och resten av Sverige.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button asChild size="xl" variant="accent">
