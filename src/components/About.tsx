@@ -1,5 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
-import about from "@/assets/project-7.jpeg";
+import about from "@/assets/hero.jpeg";
 
 const points = [
   "Över ett decennium av branscherfarenhet",
