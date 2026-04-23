@@ -73,13 +73,9 @@ const Header = () => {
         </div>
 
         <div className="md:hidden flex items-center gap-2">
-          <a
-            href={`tel:${PHONE_TEL}`}
-            className="inline-flex items-center gap-1.5 px-3 h-10 rounded-md bg-accent text-accent-foreground font-semibold text-sm shadow-card"
-            aria-label="Ring NP Solution AB"
-          >
-            <Phone size={16} /> Ring oss
-          </a>
+          <Button asChild variant="accent" size="sm" className="h-10 px-4 text-sm font-semibold">
+            <a href="#kontakt">Få offert</a>
+          </Button>
           <button
             onClick={() => setOpen(!open)}
             className={`p-2 ${scrolled ? "text-foreground" : "text-primary-foreground"}`}
