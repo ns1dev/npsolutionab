@@ -4,7 +4,7 @@ import about from "@/assets/project-7.jpeg";
 const points = [
   "Över ett decennium av branscherfarenhet",
   "Specialister på ventilationsisolering",
-  "Hela Sverige – från Farsta till norr och söder",
+  "Verksamma i hela Stockholmsregionen och Sverige",
   "Skräddarsydda lösningar för kommersiella fastigheter",
 ];
 
@@ -27,7 +27,7 @@ const About = () => {
             Erfarna Ventilationsmontörer Ni Kan Lita På
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-            NP Solution AB drivs av en passion för perfekt inomhusklimat och hög teknisk standard. Med vår bas i Farsta och med över ett decennium av branscherfarenhet levererar vi skräddarsydda och hållbara ventilationslösningar. Vårt fokus ligger på professionellt hantverk och nöjda kunder i hela Sverige.
+            NP Solution AB drivs av en passion för perfekt inomhusklimat och hög teknisk standard. Med bas i Stockholm och över ett decennium av branscherfarenhet levererar vi skräddarsydda och hållbara ventilationslösningar. Vårt fokus ligger på professionellt hantverk och nöjda kunder i hela Stockholmsregionen samt övriga Sverige.
           </p>
           <ul className="space-y-3">
             {points.map((p) => (
