@@ -43,14 +43,14 @@ const Footer = () => {
               <li>
                 <a href="mailto:npsolutionab@gmail.com" className="hover:text-accent transition-colors break-all">npsolutionab@gmail.com</a>
               </li>
-              <li>Org.nr: 559441-2679</li>
+              <li>Org.nr: 559325-6000</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/15 mt-12 pt-6 text-sm text-primary-foreground/60 flex flex-col md:flex-row justify-between gap-2">
           <span>© 2026 NP Solution AB. Alla rättigheter förbehållna.</span>
-          <span>Org.nr 559441-2679</span>
+          <span>Org.nr 559325-6000</span>
         </div>
       </div>
     </footer>
